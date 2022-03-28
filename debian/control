@@ -1,0 +1,24 @@
+Source: volk
+Section: unknown
+Priority: optional
+Maintainer: John Zupin <johnz@lunarg.com>
+Build-Depends: debhelper-compat (= 11),
+ cmake,
+ vulkan-headers
+Standards-Version: 4.4.1
+Homepage: https://github.com/zeux/volk
+Vcs-Browser: https://github.com/zeux/volk
+Vcs-Git: https://github.com/zeux/volk.git
+
+Package: volk
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Volk is a meta-loader for Vulkan. It allows
+ you to dynamically load entrypoints required
+ to use Vulkan without linking to vulkan-1.dll
+ or statically linking Vulkan loader. Additionally,
+ volk simplifies the use of Vulkan extensions by
+ automatically loading all associated entrypoints.
+ Finally, volk enables loading Vulkan entrypoints
+ directly from the driver which can increase
+ performance by skipping loader dispatch overhead.
