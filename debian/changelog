@@ -1,3 +1,34 @@
+volk (1.3.231.0~rc1-1lunarg22.04-1) jammy; urgency=medium
+
+  [ Arseny Kapoulkine ]
+  * Add GitHub action to automatically submit PRs with new versions
+  * Update new workflow name
+  * Allow to run the new workflow manually
+  * Use create-pull-request action to commit instead
+  * Finishing touches
+
+  [ GitHub ]
+  * Update to 1.3.225
+
+  [ sean ]
+  * Fix: Only run action on thursdays
+
+  [ GitHub ]
+  * Update to 1.3.226
+  * Update to 1.3.227
+  * Update to 1.3.228
+  * Update to 1.3.229
+  * Update to 1.3.230
+
+  [ Bob Ellison ]
+  * sdk: support the Vulkan SDK build process
+  * Add VULKAN_HEADERS_INSTALL_DIR setting
+
+  [ GitHub ]
+  * Update to 1.3.231
+
+ -- john <john@odin>  Tue, 18 Oct 2022 14:55:57 -0600
+
 volk (1.3.224.0~rc1-1lunarg20.04-1) focal; urgency=medium
 
   [ CyKid128 ]
