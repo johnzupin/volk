@@ -1,3 +1,19 @@
+volk (1.3.236.0~rc1-1lunarg20.04-1) focal; urgency=medium
+
+  [ GitHub ]
+  * Update to 1.3.232
+  * Update to 1.3.233
+  * Update to 1.3.234
+  * Update to 1.3.235
+
+  [ Arseny Kapoulkine ]
+  * Fix generate.py to handle multiple extension/feature requirements
+
+  [ GitHub ]
+  * Update to 1.3.236
+
+ -- john <john@odin>  Thu, 08 Dec 2022 14:04:18 -0700
+
 volk (1.3.231.0~rc1-1lunarg20.04-1) focal; urgency=medium
 
   [ Arseny Kapoulkine ]
