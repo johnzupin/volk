@@ -1,3 +1,25 @@
+volk (1.3.239.0~rc1-1lunarg22.04-1) jammy; urgency=medium
+
+  [ GitHub ]
+  * Update to 1.3.237
+  * Update to 1.3.238
+
+  [ Arseny Kapoulkine ]
+  * Happy New Year!
+  * Use a repo-scoped token to create update PRs
+
+  [ John Zupin ]
+  * packaging: debian: update copyright
+
+  [ GitHub ]
+  * Update to 1.3.239
+
+  [ Arseny Kapoulkine ]
+  * Improve support for api=/supported= parsing
+  * Use tabs instead of spaces for consistency
+
+ -- john <john@odin>  Mon, 23 Jan 2023 14:29:07 -0700
+
 volk (1.3.236.0~rc1-1lunarg22.04-1) jammy; urgency=medium
 
   [ GitHub ]
