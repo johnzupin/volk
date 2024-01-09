@@ -1,3 +1,56 @@
+volk (1.3.275.0~rc1-1lunarg22.04-1) jammy; urgency=medium
+
+  [ GitHub ]
+  * Update to 1.3.262
+  * Update to 1.3.263
+  * Update to 1.3.264
+
+  [ Arseny Kapoulkine ]
+  * Fix conflict between FARPROC definition and minwindef.h
+
+  [ GitHub ]
+  * Update to 1.3.265
+  * Update to 1.3.266
+
+  [ Arseny Kapoulkine ]
+  * Allow auto-merge in update.yml
+  * Update update.yml
+  * Update update.yml
+
+  [ GitHub ]
+  * Update to 1.3.267
+  * Update to 1.3.268
+  * Update to 1.3.269
+
+  [ Arseny Kapoulkine ]
+  * test: Bump minimum CMake version to 3.5
+  * Fix C++-style comment for header-only builds
+  * Implement volkFinalize function (#153)
+  * Fix whitespace indentation
+
+  [ GitHub ]
+  * Update to 1.3.270
+
+  [ Arseny Kapoulkine ]
+  * Update build.yml
+  * Update volkFinalize header comments to clarify usage
+
+  [ GitHub ]
+  * Update to 1.3.271
+  * Update to 1.3.272
+  * Update to 1.3.273
+  * Update to 1.3.274
+
+  [ Arseny Kapoulkine ]
+  * test: Update cmake_using_source_directly to avoid libvulkan1 dependency
+  * Fall back to /usr/local/lib/libvulkan.dylib on macOS
+  * Adjust fallback to only activate when DYLD_FALLBACK_LIBRARY_PATH is unset
+
+  [ GitHub ]
+  * Update to 1.3.275
+
+ -- john <john@odin>  Tue, 09 Jan 2024 12:58:42 -0700
+
 volk (1.3.268.0~rc1-1lunarg22.04-1) jammy; urgency=medium
 
   [ John Zupin ]
