@@ -3,8 +3,9 @@ Date: Wed, 17 Jan 2024 14:09:20 -0700
 Subject: patch: remove installing the static library
 
 ---
- CMakeLists.txt | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
+ CMakeLists.txt            | 2 +-
+ cmake/volkConfig.cmake.in | 1 -
+ 2 files changed, 1 insertion(+), 2 deletions(-)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
 index a06517f..5e9ec60 100644
@@ -19,3 +20,15 @@ index a06517f..5e9ec60 100644
      EXPORT volk-targets
      LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
      ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
+diff --git a/cmake/volkConfig.cmake.in b/cmake/volkConfig.cmake.in
+index 6e45c37..1bba4f9 100644
+--- a/cmake/volkConfig.cmake.in
++++ b/cmake/volkConfig.cmake.in
+@@ -12,7 +12,6 @@ endif()
+ if(VOLK_PULL_IN_VULKAN)
+   find_package(Vulkan QUIET)
+   if(TARGET Vulkan::Vulkan) 
+-    add_dependencies(volk::volk Vulkan::Vulkan)
+     add_dependencies(volk::volk_headers Vulkan::Vulkan)
+   elseif(DEFINED ENV{VULKAN_SDK})
+     target_include_directories(volk::volk INTERFACE "$ENV{VULKAN_SDK}/include")
