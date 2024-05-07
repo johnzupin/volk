@@ -1,3 +1,55 @@
+volk (1.3.283.0~rc1-1lunarg22.04-1) jammy; urgency=medium
+
+  [ GitHub ]
+  * Update to 1.3.276
+
+  [ Arseny Kapoulkine ]
+  * Update year to 2024
+
+  [ GitHub ]
+  * Update to 1.3.277
+
+  [ Brad Smith ]
+  * CMake: Fix linking on *BSD systems
+
+  [ Arseny Kapoulkine ]
+  * Bump checkout and create-pull-request action versions
+  * Fix Vulkan-Headers checkout path post-upgrade
+  * Force fetch tags when checking out Vulkan-Headers
+  * Also fetch the entire repository...
+
+  [ GitHub ]
+  * Update to 1.3.278
+
+  [ Arseny Kapoulkine ]
+  * Update update.yml
+  * Update README.md
+
+  [ Richard S. Wright Jr. ]
+  * apple: Add support for loader or moltenvk in a framework
+
+  [ GitHub ]
+  * Update to 1.3.279
+  * Update to 1.3.280
+
+  [ bion howard ]
+  * Remove "just" implying this is obvious or simple or completely explained
+
+  [ GitHub ]
+  * Update to 1.3.281
+
+  [ Lucas Booher ]
+  * Changed non-boolean cmake variables from option
+
+  [ Samuele Panzeri ]
+  * Ignore pedantic check on function pointer cast for GCC This change allows gcc to clean compile with Wall, pedantic and -Werror. Meson in particular toggles -pedantic in warning_level=3 which causes GCC compilation to fail.
+
+  [ GitHub ]
+  * Update to 1.3.282
+  * Update to 1.3.283
+
+ -- john <john@odin>  Tue, 07 May 2024 09:37:52 -0600
+
 volk (1.3.280.0~rc3-1lunarg22.04-1) jammy; urgency=medium
 
   * UNRELEASED
