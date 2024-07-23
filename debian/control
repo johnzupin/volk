@@ -13,6 +13,8 @@ Vcs-Git: https://github.com/zeux/volk.git
 Package: volk
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: libvulkan-volk-dev
+Replaces: libvulkan-volk-dev
 Description: Volk is a meta-loader for Vulkan. It allows
  you to dynamically load entrypoints required
  to use Vulkan without linking to vulkan-1.dll
