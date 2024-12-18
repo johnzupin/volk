@@ -9,12 +9,12 @@ License: MIT License
 
 Files: LICENSE.md
        volk.h
-Copyright: 2018-2022, Arseny Kapoulkine
-           2018-2022, Arseny Kapoulkine <arseny.kapoulkine@gmail.com>
+Copyright: 2018-2024, Arseny Kapoulkine
+           2018-2024, Arseny Kapoulkine <arseny.kapoulkine@gmail.com>
 License: Expat
 
 Files: debian/*
-Copyright: 2023, LunarG Inc <johnz@lunarg.com>
+Copyright: 2022-2024, LunarG Inc <johnz@lunarg.com>
 License: GPL-2+
 
 License: Expat
