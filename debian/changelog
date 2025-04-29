@@ -1,3 +1,10 @@
+volk (1.4.313.0~rc1-1lunarg24.04-1) noble; urgency=medium
+
+  [ GitHub ]
+  * Update to 1.4.313
+
+ -- john <john@odin>  Tue, 29 Apr 2025 11:39:28 -0600
+
 volk (1.4.312.0~rc1-1lunarg24.04-1) noble; urgency=medium
 
   [ GitHub ]
