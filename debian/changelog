@@ -1,3 +1,27 @@
+volk (1.4.313.0~rc1-1lunarg24.04-1) noble; urgency=medium
+
+  [ GitHub ]
+  * Update to 1.4.313
+
+ -- john <john@odin>  Tue, 29 Apr 2025 11:39:28 -0600
+
+volk (1.4.312.0~rc1-1lunarg24.04-1) noble; urgency=medium
+
+  [ GitHub ]
+  * Update to 1.4.310
+  * Update to 1.4.311
+
+  [ Arseny Kapoulkine ]
+  * Generate padding fields in VolkDeviceTable to preserve ABI
+  * Instead of using sequential indices, use CRC32 of padding contents
+  * Regenerate volk.h with padding fields
+
+  [ GitHub ]
+  * Update to 1.4.311
+  * Update to 1.4.312
+
+ -- john <john@odin>  Tue, 15 Apr 2025 15:45:25 -0600
+
 volk (1.4.309.0~rc1-1lunarg24.04-1) noble; urgency=medium
 
   [ GitHub ]
